@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../training/image/wallpaper/blanko.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+
+.navigation{
+    font-family: 'Nerko One', cursive;
+    padding-left: 15px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    background-color: white;
+    color:black;
+    min-height: 8vh;
+}
+.navigation h4{
+    letter-spacing: 5px;
+}
+
+.menu{
+    font-family: 'Texturina', serif;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    list-style: none;
+}        
+
+.quots{
+    color: black;
+    padding-top: 10rem;
+    font-family:'Texturina', serif;
+    text-align: center;
+    top: 50%;
+    font-size: 20px;
+   
+}
+
+button{
+   margin: 1.8rem;
+   border: none;
+   border-radius: 2rem;
+   padding: 1rem 3rem;
+   background-color: lightblue;
+}
+button:hover{
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.menu li:hover{
+   color: blue;
+   cursor: pointer;
+   
+
+}
+
+.blog-post{
+    display: flex;
+    margin: 3rem 2rem;
+    min-height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    box-shadow:0 10px 15px gray;
+    padding-top: 1rem;
+    float: left;
+}
+
+.blog-post img{
+    height: 60vh;
+}
+
+.blog-post h4{
+    text-align: center;
+}
+
+.blog-post figcaption{
+    text-align: center;
+    padding-top: 1rem;   
+}
+
+.content{
+    text-align: center;
+}
+
+
+
+.image-container{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    padding-left: 30px;
+    text-align: center;
+    float: left;
+    justify-content: space-around;
+    margin: 20px 40px 80px 100px;
+    
+
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.transaction-image{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.5s ease;
+    padding-left: 30px;
+}
+.transaction-image:hover{
+    opacity: 1;
+}
+.image-container figcaption{
+    font-family:'Texturina', serif;
+    text-transform: uppercase; 
+}
